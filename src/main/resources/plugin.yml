@@ -1,0 +1,12 @@
+name: HyperiumCoinflip
+version: '${project.version}'
+main: us.hyperiummc.hyperiumcoinflip.HyperiumCoinflip
+api-version: 1.17
+authors: [ ItzRade ]
+description: Hyperium Coinflip
+commands:
+  coinflip:
+    aliases:
+      - cf
+      - tf
+      - tokenflip

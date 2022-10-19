@@ -1,0 +1,56 @@
+# The min bet amount
+minAmount: 1000
+
+GUI:
+  Size: 9
+  Title: '&9&lCOIN FLIP'
+  SkullItem:
+    name: '&b&l%name%'
+    lore:
+      - ''
+      - '&9&lWager'
+      - ' %currency%%money%'
+      - ''
+      - '&9&lSide Chosen'
+      - ' &7%side%'
+      - ''
+      - '&7Click here to &a&lENTER &7the bet!'
+  BookInfo:
+    type: BOOK
+    name: '&9&lHELP'
+    lore:
+      - ''
+      - '&f/coinflip'
+      - '&7View all active coinflip matches'
+      - ''
+      - '&f/coinflip <amount> <heads/tails> [<tokens>]'
+      - '&7Start a coinflip match'
+      - ''
+      - '&f/coinflip cancel'
+      - '&7Remove your coinflip match'
+      - ''
+      - '&f/coinflip toggle'
+      - '&7Toggles coinflip broadcasts'
+  RefreshItem:
+    type: CHEST
+    name: '&9&lRefresh'
+    lore:
+      - '&7Click here to refresh this page'
+
+AnimationGUI:
+  Title: '&9&lWINNER IS..'
+
+# messages
+Messages:
+  WinBroadcast: '&9&lCOINFLIP &8» &b%winner% &7has defeated &b%loser% &7in a %currency%%amount% &9/coinflip&7!'
+  Entered: '&9&lCOINFLIP &8» &7You created a bet of %currency%%amount% &7(&9/coinflip&7)'
+  Canceled: '&9&lCOINFLIP &8» &7Canceled successfully.'
+  CanceledHelp: '&9&lCOINFLIP &8» &7To remove a coinflip, type &9/cf cancel&7.'
+  NotEnoughMoney: '&9&lCOINFLIP &8» &7You can''t afford to enter this coinflip.'
+  NotEnoughEnterMoney: '&9&lCOINFLIP &8» &7Amount must be greater than &b1000&7!'
+  AlreadyInBet: '&9&lCOINFLIP &8» &7You already have an active coinflip.'
+  NotInBet: '&9&lCOINFLIP &8» &7You do not have a coinflip to cancel.'
+  ToggleON: '&9&lCOINFLIP &8» &7Coinflip broadcasts &a&lENABLED&7.'
+  ToggleOFF: '&9&lCOINFLIP &8» &7Coinflip broadcasts &c&lDISABLED&7.'
+  Full: '&9&lCOINFLIP &8» &7There is currently the maximum number of allowed coinflips.'
+  CreateHelp: '&9&lCOINFLIP &8» &7Usage: /coinflip <amount> <heads/tails> [<tokens>]'
